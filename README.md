@@ -1,1 +1,1 @@
-this is a automatic school management system
+this is a automatic school management system tomi hina okul poran
