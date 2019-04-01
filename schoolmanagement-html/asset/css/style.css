@@ -1,0 +1,264 @@
+/*
+	project name:
+	project auth:
+	project date:
+	all section:
+	  1.header 
+	  2.section 
+*/
+/* Base css start */
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+p{
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+/* Base css end*/
+body{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+/*=====color defind common====*/
+.single-slider-item li a:hover{
+    background-color: #56ab2f; 
+}
+.pgp-4 a:hover,.preregrap span,.pgp-2 span{
+    color: #56ab2f; 
+}
+
+.single-slider-item li a:hover{
+   color: #ffffff; 
+}
+.news-heading p,.pgp-3,.pgp-2,.date,.student-heading p,.student-text p,small{
+	color:#808080;
+}
+.pgp-4 a,.preregrap-left .pgp-1,p.signiture{
+	color:#222222;
+}
+/*=====color defind  common end====*/
+/*text size common start*/
+.preregrap .pgp-1{
+    font-size: 20px;  
+}
+.preregrap .pgp-1,.preregrap-left .pgp-1 {
+    font-weight: 600; 
+}
+.preregrap .pgp-2,.pgp-3,.pgp-4,.date,.news-heading p,.student-heading p,.student-text p,small{
+    font-size: 14px;
+    font-weight: 300;
+}
+p.signiture{
+	font-weight: 400;
+}
+.news-heading h1,.student-heading h1{
+	font-size: 36px;
+	font-weight: 700;
+}
+.preregrap-left .pgp-1 {
+    font-size: 20px;
+}
+p.signiture{
+	font-size: 16px;
+}
+
+/*text size common end*/
+
+/*====Header======*/
+.header-top{
+	display: flex;
+    justify-content: space-between;
+    background: green;
+    color: #fff;
+    padding: 10px 0px;
+}
+.header-top-left ul{
+	display: flex;
+}
+.header-top-right ul{
+	display: flex;
+}
+.main-menu{
+	display: flex;
+    justify-content: space-between;
+    background: #ddd;
+    padding: 20px 0px;
+}
+.level-menu ul{
+	display: flex;
+}
+/* Slier Section start*/
+.single-slider{
+	background-image: url(../img/01_Homepage.jpg);
+	height: 400px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.single-slider{
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+/*principle css start*/
+.principle-section {
+    display: flex;
+    justify-content: space-between;
+}
+.principle-picture{
+	background-image: url(../img/princilepicyure2.jpg);
+	height: 400px;
+}
+.principl-content {
+    width: 50%;
+    height: 360px;
+    text-align: justify;
+}
+.principl-content p {
+    line-height: 25px;
+}
+.principl-content img{
+	
+}
+/*====couers area start====*/
+.single-slider-item {
+    text-align: center;
+}
+.headint-content {
+    text-align: center;
+}
+.couse-slider {
+    display: flex;
+    justify-content: space-between;
+}
+.single-slider-item ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+	border-style: solid;
+    border-width: 1px 0;
+}
+.single-slider-item li a{
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*====couers area end====*/
+/*importent fact area*/
+.counter-area {
+    display: flex;
+    justify-content: space-between;
+}
+.counter-text button {
+    padding: 20px 40px;
+    border: 1px solid  #ffffff;
+    background-color: transparent;
+}
+/*=====recent news are=====*/
+.news-heading {
+    text-align: center;
+}
+.recent-news {
+    display: grid;
+    grid-template-columns: 570px auto;
+    grid-gap: 30px;
+}
+.preregrap-left {
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    border-color: #e8e8e8;
+}
+.recent-item-wrapper {
+    display: grid;
+    grid-gap: 30px 0;
+}
+.wrapper-item {
+    display: grid;
+    grid-template-columns: 270px auto;
+}
+.preregrap {
+    padding: 30px 30px;
+    display: grid;
+    grid-template-columns: 270px;
+    border-style: solid;
+    border-width: 1px 0;
+    border-color: green;
+}
+.icon {
+    padding-left: 6px;
+    font-weight: 300;
+}
+.comment {
+    color: #666666;
+}
+.pgp-4 a{
+	color:#222222;
+	text-transform: uppercase;
+}
+.preregrap-left {
+    padding: 30px;
+    line-height: 41px;
+}
+/*=====recent new end=====*/
+/*=====student-say start=====*/
+.student-say-area{
+	background-image: url(../img/studentbg.jpg);
+}
+.student-heading {
+    text-align: center;
+}
+.student-img {
+    text-align: center;
+    position: relative;
+    top: 20%;
+    z-index: 1;
+}
+.student-img img {
+    position: relative;
+    border-radius: 100%;
+    border: 2px solid #56ab2f;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.student-say{
+	
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 0 30px;
+}
+.student-text {
+    background-color: #ffffff;
+    padding-top: 95px;
+    position: relative;;
+}
+.student-text p,small {
+    padding: 0 30px;
+}
+/*====student-say end ===*/
+/*====details-say end ===*/
+.details-elemnnts {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 0 50px;
+}
